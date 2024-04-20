@@ -16,10 +16,14 @@ body {
     text-align: center;
     color: #f6f6f6;
   }
+
+  p{
+    color: #f6f6f6;
+  }
   
   #question {
     margin-bottom: 20px;
-    color: #f6f6f6
+    color: #f6f6f6;
   }
   
   #options {
