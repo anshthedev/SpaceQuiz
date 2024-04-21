@@ -258,8 +258,8 @@ let score = 0;
 let otherQuestion = 10;
 
 function startQuiz() {
-  shuffleArray(quizData); // Shuffle the questions
-  shuffledQuestions = quizData.slice(0, 50); // Get up to the first 50 questions
+  shuffleArray(quizData);
+  shuffledQuestions = quizData.slice(0, 50);
   currentQuestion = 0;
   score = 0;
   showQuestion();
@@ -268,14 +268,14 @@ function startQuiz() {
 function shuffleArray(array) {
 for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [array[i], array[j]] = [array[j], array[i]]; // Swap elements
+    [array[i], array[j]] = [array[j], array[i]];
 }
 }
 
 
 
 function showQuestion() {
-  shuffleArray(quizData); // Shuffle the questions
+  shuffleArray(quizData);
   const question = quizData[currentQuestion];
   questionElement.innerText = question.question;
   optionsElement.innerHTML = "";
