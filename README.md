@@ -1,5 +1,5 @@
 # **Space Quiz - 2024 STEAM Olympics Hackathon**
-**About**: *this was my winning submission for the Easy level into the 2024 STEAM Olympics Hackathon*
+**About**: *this was my winning submission for the 2024 STEAM Olympics Hackathon*
 
 ## Hackathon Project Description:
 
